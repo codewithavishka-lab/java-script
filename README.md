@@ -28,8 +28,32 @@ try	            Implements error handling to a block of statements
 
 
 #variables(store values)
-.Using let
-.Using const
+.Using let  (Only use let if you cannot use const)
+.Using const (Always use const if the value should not be changed)
+
+#data type
+Strings are text written inside quotes
+Numbers are written without quotes
+
+Type	         Description
+String	       A text of characters enclosed in quotes
+Number       	 A number representing a mathematical value
+Bigint	       A number representing a large integer
+Boolean	       A data type representing true or false
+Object	       A collection of key-value pairs of data
+Undefined	     A primitive variable with no assigned value
+Null	         A primitive value representing object absence
+Symbol	       A unique and primitive identifier
+
+#javascript booleans
+Equal to	
+Not equal to	
+Greater than	
+Less than
+
+
+
+
 
 
 
@@ -39,7 +63,17 @@ Single line comments start with //
 .multi line comments
 Multi-line comments start with /* and end with */
 
+#let
 
+let can not be redeclared.
+With let you can not do this:
+let x = "John Doe";
+let x = 0;
+
+var can be redeclared.
+With var you can do this:                         
+var x = "John Doe";                                
+var x = 0;                                         
 
 ##operators
 #arithmetic operators
