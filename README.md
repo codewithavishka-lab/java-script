@@ -158,6 +158,7 @@ switch(expression) {
 #ternary operator 
 condition ? expression1 : expression2
 
+#for loop
 
 
 
